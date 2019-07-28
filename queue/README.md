@@ -1,6 +1,6 @@
-# SimpleQueue
+# Queue
 
-**TODO: Add description**
+A simple queue based off C++ STL queue interface.
 
 ## Installation
 
