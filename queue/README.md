@@ -5,6 +5,8 @@ A simple queue based off C++ STL queue interface.
 * `empty/0` - returns whether queue is empty
 * `size/0` - returns size of queue. Uses `Kernel.length` under the hood
 * `swap/1` - exchange contents of provided queue with current queue held in state
+* `emplace/1` - inserts new element at end of queue by creating new list
+  * While this works in C++ by creating a new instance of the class in the container, Elixir's immutables and lack of instances deem this unnecessary. It is here strictly for feature parity with the C++ STL implementation of `queue`.
 * `front/0` - returns queue head
 * `back/0` - returns last element of queue
 * `push/1` - adds element to end of queue
